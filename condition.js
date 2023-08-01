@@ -20,7 +20,7 @@ else if(totalScore >= 50) {
 else if(totalScore >= 40) {
     resultMessage = "C Grade";
 }
-else if (totalScore <= 39 && totalScore >=0) {
+else if (totalScore <= 39 && totalScore >= 0) {
     resultMessage = "F Grade";
 }
 else {
