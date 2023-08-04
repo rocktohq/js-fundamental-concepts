@@ -15,3 +15,31 @@ names[3] = "Ruman";
 
 // Index of a Value
 // console.log(ages.indexOf(31));
+
+
+// Loop
+for (let i = 0; i < names.length; i++) {
+    console.log(i + 1, names[i]);
+}
+
+
+// Break
+const fruits = ["Apple", "Banana", "Mango", "Nut", "Orange"];
+
+for (let i = 0; i < fruits.length; i++) {
+    if (fruits[i] === "Mango") {
+        break;
+    }
+
+    // console.log(fruits[i]);
+}
+
+// Continue
+
+for (let i = 0; i < fruits.length; i++) {
+    if (fruits[i] === "Nut") {
+        continue;
+    }
+
+    // console.log(i + 1, fruits[i]);
+}
