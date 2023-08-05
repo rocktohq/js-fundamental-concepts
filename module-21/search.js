@@ -16,6 +16,10 @@ console.log(indexOfString);
 const endWithString = lyricsLower.endsWith('.');
 console.log(endWithString);
 
+const fileName = "myCV.pdf";
+const checkFileType = fileName.endsWith(".pdf");
+console.log("File type:",checkFileType);
+
 // startWith()
 const startWithString = lyricsLower.startsWith("Amar".toLowerCase());
 console.log(startWithString);
