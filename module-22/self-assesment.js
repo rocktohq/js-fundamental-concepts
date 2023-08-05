@@ -180,7 +180,7 @@ function positiveNumbers(numbers) {
     const pNumbers = [];
     for (let i = 0; i < numbers.length; i++) {
         const element = numbers[i];
-        if(element >= 0){
+        if (element >= 0) {
             pNumbers.push(element);
         }
         else {
