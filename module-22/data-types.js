@@ -10,7 +10,7 @@ const information = {
     cgpa: 3.33,
     address: "Jamalpur"
 }
-const friends = ["Rashed", "Imran", "Roman", "Babu"]
+const friends = ["Rashed", "Imran", "Roman", "Babu"];
 
 
 // Printing the TYPE of these variables
@@ -19,8 +19,8 @@ console.log(typeof age);
 console.log(typeof isEmployeed);
 console.log(typeof cgpa);
 console.log(typeof information);
-console.log(typeof friends);    // Array can't be detected by this way
-console.log(Array.isArray(friends));    // Array detector function true = isArray || false = notArray
+console.log(typeof friends);    // Array can't be checked in this way
+console.log(Array.isArray(friends));    // ArrayChecker: true = isArray || false = notArray
 console.log(Array.isArray(fullName));
 
 
