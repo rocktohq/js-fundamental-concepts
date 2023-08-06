@@ -1,6 +1,6 @@
 function fibonacciSeries(number){
     const fiboInit = [0, 1];
-    let fiboSeries = [];
+    let fiboSeries = [0, 1];
     for (i = 2; i <= number; i++) {
         fiboInit[i] = fiboInit[i - 1] + fiboInit[i - 2];
         fiboSeries.push(fiboInit[i]);
