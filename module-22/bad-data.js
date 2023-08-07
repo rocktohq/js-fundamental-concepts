@@ -2,7 +2,6 @@
 #   Negative number counter
 */
 
-
 // Function to find bad data
 function findingBadData(dataArr) {
     let badDataCounter = 0;
