@@ -4,10 +4,20 @@
 
 // Function to find bad data
 function findingBadData(dataArr) {
+    // Validation
+    if (!Array.isArray(dataArr)) {
+        return "Error: Please provide an array of number!";
+    }
+
     let badDataCounter = 0;
     for (element of dataArr) {
-        if (element < 0) {
-            badDataCounter++;
+        if (typeof element !== "number") {
+            return "Error: Please provide an array of number!";
+        }
+        else {
+            if (element < 0) {
+                badDataCounter++;
+            }
         }
     }
     return badDataCounter;
